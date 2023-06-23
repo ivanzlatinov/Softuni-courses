@@ -1,0 +1,20 @@
+{
+  "name": "testing-demo",
+  "version": "1.0.0",
+  "description": "Short demo of unit testing frameworks",
+  "main": "1.subSum.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "testing",
+    "mocha",
+    "chai",
+    "demo"
+  ],
+  "author": "IZ",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
