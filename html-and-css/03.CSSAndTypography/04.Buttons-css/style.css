@@ -1,0 +1,46 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+.button {
+    border-radius: 2rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    outline: none;
+    color:rgb(51, 51, 51);
+}
+
+.fill {
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.hover:hover {
+    background-color: rgb(0, 102, 0);
+    transition: background-color 300ms linear;
+}
+
+span {
+    padding: 0.5rem;
+}
+
+a {
+    border: 2px solid black;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:inline-block;
+    width:80px;
+    height: 15px;
+}
+
+body {
+    padding: 1rem;
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+i::before {
+    content: "\f063";
+    padding-right: 5px;
+}
