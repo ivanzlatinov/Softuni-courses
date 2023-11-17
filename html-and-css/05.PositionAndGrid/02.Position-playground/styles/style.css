@@ -1,0 +1,62 @@
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+body {
+    margin: 0;
+    font-size: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.viewport {
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(30, 93, 162, 1) 29%, rgba(29, 204, 134, 1) 86%);
+}
+
+.bottom {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 77, 29, 1) 40%, rgba(177, 119, 36, 1) 100%);
+}
+
+.card .picture-top {
+    width: 170px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.card .picture-bottom {
+    width: 170px;
+    height: 280px;
+    object-fit: cover;
+}
+
+img,
+i {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.fa-star {
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+}
+
+.fa-link {
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+}
